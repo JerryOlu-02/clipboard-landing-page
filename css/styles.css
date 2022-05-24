@@ -1,0 +1,237 @@
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3 {
+    font-weight: bold;
+    color: hsl(210, 10%, 33%);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+/* Buttons */
+
+button {
+    border-style: none;
+    color: #fff;
+    height: 3.5rem;
+    width: 12rem;
+    border-radius: 100px;
+    margin: 30px 5px;
+}
+
+.button-1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.button-1:hover {
+    box-shadow: 2px 5px 12px  hsl(171, 66%, 44%);
+}
+
+.button-2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.button-2:hover {
+    box-shadow: 2px 5px 12px hsl(233, 100%, 69%);
+}
+
+/* Header Section */
+
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 5% 26% 7%;
+    line-height: 2;
+}
+
+header img {
+    margin-bottom: 30px;
+}
+
+/* Snippets Section */
+
+#snippets {
+    padding: 2% 0 13% 0;
+    line-height: 2;
+}
+
+#snippets img {
+    position: relative;
+    right: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+#snippets p {
+    margin-bottom: 35px;
+}
+
+.snippets-container {
+    margin-top: 70px;
+}
+
+.snippets-text {
+    text-align: left;
+    align-self: center;
+}
+
+.snippets-heading {
+    margin-bottom: 20px;
+}
+
+.snippets-body {
+    padding: 0 24%;
+}
+
+/* Access Section */
+
+#access {
+    padding: 0 25%;
+}
+
+#access img {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+/* Supercharge section */
+
+.supercharge-container {
+    padding: 15% 5% 10%;
+}
+
+.supercharge-icons {
+    margin-bottom: 40px;
+}
+
+#supercharge h3 {
+    margin-bottom: 25px;
+}
+
+.supercharge-logos {
+    margin-left: 70px;
+}
+
+/* Clipboard Section */
+
+#clipboard {
+    padding: 10% 25% 10%;
+}
+
+/* Footer */
+
+footer {
+    background-color: hsl(201, 11%, 66%);
+}
+
+footer p {
+    color: hsl(210, 10%, 33%);
+}
+
+footer p:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px 40px;
+}
+
+.footer-container-left {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    text-align: left;
+}
+
+.footer-container-right {
+    display: flex;
+    gap: 40px;
+    justify-items: center;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+    #snippets img {
+        position: relative;
+        right: 0;
+        width: 90%;
+        height: 100%;
+    }
+
+
+    .snippets-text {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #access {
+        padding: 0 10%;
+    }
+
+    .supercharge-logos {
+        margin-left:0 ;
+    }
+
+    .supercharge-logos-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: repeat(5, 1fr);
+        gap: 40px;
+        justify-items: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    
+    button {
+        width: 15rem;
+    }
+
+    #clipboard {
+        padding-bottom: 25%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-container-left {
+        grid-template-columns: 1fr;
+        grid-auto-rows: repeat(4, 1fr);
+        gap: 0;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+
+}
