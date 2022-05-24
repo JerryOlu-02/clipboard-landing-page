@@ -199,7 +199,7 @@ footer p:hover {
     }
 
     .snippets-body {
-        padding: 0 10%;
+        padding: 0;
     }
 
     #snippets img {
@@ -210,7 +210,7 @@ footer p:hover {
     }
     
     .snippets-container {
-        padding: 0 10%;
+        padding: 0;
     }
     
     #snippets {
@@ -220,7 +220,7 @@ footer p:hover {
     .snippets-text {
         text-align: center;
         margin-top: 60px;
-        padding: 0 10%;
+        padding: 0;
     }
 
     #access {
