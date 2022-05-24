@@ -177,6 +177,30 @@ footer p:hover {
 /* Media Query */
 
 @media (max-width: 1028px) {
+    
+    header {
+        padding: 5% 10% 7%;
+    }
+
+    button {
+        margin: 30px 0;
+    }
+
+    #clipboard {
+        padding: 10% 10% 10%;
+    }
+
+    #supercharge {
+        padding: 0 10%;
+    }
+
+    .supercharge-container {
+        padding: 15% 10% 10%;
+    }
+
+    .snippets-body {
+        padding: 0 10%;
+    }
 
     #snippets img {
         position: relative;
@@ -189,6 +213,7 @@ footer p:hover {
     .snippets-text {
         text-align: center;
         margin-top: 60px;
+        padding: 0 10%;
     }
 
     #access {
