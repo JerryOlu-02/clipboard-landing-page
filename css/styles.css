@@ -205,10 +205,17 @@ footer p:hover {
     #snippets img {
         position: relative;
         right: 0;
-        width: 90%;
+        width: 100%;
         height: 100%;
     }
-
+    
+    .snippets-container {
+        padding: 0 10%;
+    }
+    
+    #snippets {
+        padding: 2% 10% 13%;
+    }
 
     .snippets-text {
         text-align: center;
